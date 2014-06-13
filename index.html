@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jeego Web</title>
+    <meta name="description" content="Jeego Web Interface">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="/" />
+
+    <link rel="stylesheet" href="assets/vendor-71c590b0114195268fb952324c7a3bb7.css">
+    <link rel="stylesheet" href="assets/jeego-web-6c27525fc61256f61517e7a180b9aa3f.css">
+  </head>
+  <body>
+    <script>
+      window.JeegoWebENV = {"baseURL":"/","locationType":"auto","adapterHost":"http://127.0.0.1:3000","EmberENV":{"FEATURES":{}},"APP":{}};
+      window.EmberENV = window.JeegoWebENV.EmberENV;
+    </script>
+    <script src="assets/vendor-9ec2a012cbe2e3130e6e2fa32c5f0add.js"></script>
+    <script src="assets/jeego-web-9a53e677363582a78f2e76a0bb1fce41.js"></script>
+    <script>
+      window.JeegoWeb = require('jeego-web/app')['default'].create(JeegoWebENV.APP);
+    </script>
+  </body>
+</html>
